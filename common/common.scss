@@ -1,6 +1,6 @@
 //use Roboto font
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Zilla Slab", sans-serif;
   font-weight: 400;
 }
 
@@ -8,7 +8,7 @@ body input,
 body button,
 body select,
 body textarea {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Zilla Slab", Helvetica, Arial, sans-serif;
 }
 
 @mixin boxShadow {
@@ -32,6 +32,12 @@ body textarea {
   }
 }
 
+header a {
+    color: white;
+}
+.oidc {
+    background: $tertiary;
+}
 //remove shadow from a few buttons
 .d-editor-button-bar .btn,
 .bulk-select-all,
