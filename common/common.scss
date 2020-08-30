@@ -1,4 +1,3 @@
-//use Roboto font
 html {
   font-family: "Zilla Slab", sans-serif;
   font-weight: 400;
@@ -81,4 +80,28 @@ header a {
 
 .popup-menu .btn {
   box-shadow: none;
+}
+
+
+//Override bright blue boxes
+.alert.alert-info {
+    background-color: var(--highlight);
+    color: white;
+}
+.user-menu .quick-access-panel li {
+    background-color: var(--highlight);
+}
+
+
+.badge-notification.new-posts, .badge-notification.unread-posts, .unread-high-priority-notifications {
+    background-color: var(--love);
+    color: white;
+}
+
+.alert .btn-link, .alert a {
+    color: var(--love);
+}
+
+.highlighted {
+    background-color: #fff !important;
 }
