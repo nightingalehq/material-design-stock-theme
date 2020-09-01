@@ -88,14 +88,21 @@ header a {
     background-color: var(--highlight);
     color: white;
 }
+
 .user-menu .quick-access-panel li {
     background-color: var(--highlight);
 }
 
+.user-menu .quick-access-panel li {
+    background-color: var(--highlight);
+}
 
-.badge-notification.new-posts, .badge-notification.unread-posts, .unread-high-priority-notifications {
-    background-color: var(--love);
-    color: white;
+.user-menu .quick-access-panel li.read {
+    background-color: white;
+}
+
+.user-menu .quick-access-panel li a:visited, .user-menu .quick-access-panel li a {
+    color: var(--tertiary);
 }
 
 .alert .btn-link, .alert a {
@@ -105,3 +112,4 @@ header a {
 .highlighted {
     background-color: #fff !important;
 }
+
